@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6249" systemVersion="13F1096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="loginbtn" destination="QbL-jR-EJv" id="wpm-Gs-r0y"/>
+                <outlet property="password" destination="6iV-xz-wG3" id="RDs-EJ-PbG"/>
+                <outlet property="scroll1" destination="ZTv-Pz-tTQ" id="w1c-pU-JKu"/>
+                <outlet property="username" destination="p4U-do-arM" id="qGT-qh-ugg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZTv-Pz-tTQ">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UserName" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p4U-do-arM">
+                            <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                <rect key="frame" x="21" y="415" width="275" height="30"/>
+                            </variation>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="xRV-Se-hmh"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6iV-xz-wG3">
+                            <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="yes" returnKeyType="done" secureTextEntry="YES"/>
+                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                <rect key="frame" x="21" y="456" width="275" height="30"/>
+                            </variation>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="wjx-Ah-TSF"/>
+                            </connections>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QbL-jR-EJv">
+                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="Login"/>
+                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                <rect key="frame" x="21" y="505" width="275" height="34"/>
+                            </variation>
+                            <connections>
+                                <action selector="login:" destination="-1" eventType="touchUpInside" id="hmE-at-0g5"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo3.png" translatesAutoresizingMaskIntoConstraints="NO" id="69Z-hZ-EoF">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                <rect key="frame" x="60" y="116" width="200" height="190"/>
+                            </variation>
+                        </imageView>
+                    </subviews>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="p4U-do-arM"/>
+                            <exclude reference="6iV-xz-wG3"/>
+                            <exclude reference="QbL-jR-EJv"/>
+                            <exclude reference="69Z-hZ-EoF"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <mask key="subviews">
+                            <include reference="p4U-do-arM"/>
+                            <include reference="6iV-xz-wG3"/>
+                            <include reference="QbL-jR-EJv"/>
+                            <include reference="69Z-hZ-EoF"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="qjP-BU-zTl"/>
+                    </connections>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="ZTv-Pz-tTQ"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="ZTv-Pz-tTQ"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="210" y="-267"/>
+        </view>
+        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="BHO-5a-rvl">
+            <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+            <textInputTraits key="textInputTraits"/>
+            <point key="canvasLocation" x="454.5" y="-46"/>
+        </textField>
+    </objects>
+    <resources>
+        <image name="logo3.png" width="410" height="407"/>
+    </resources>
+</document>

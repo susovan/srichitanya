@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EC57F1E4-F28D-4A8A-84A5-E44AF7E20FDA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Cheer&amp;Dance</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>957A178D-7D8C-4BA2-8D27-A439BACB4A04</key>
+		<string>https://adeptpros.unfuddle.com/svn/adeptpros_cheeranddance</string>
+		<key>bbefe602-4bf9-437d-9e3a-a03b90d65db3</key>
+		<string>https://adeptpros.unfuddle.com/svn/adeptpros_cheeranddance</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>adeptpros_cheeranddance/Cheer&amp;Dance_SVN/Cheer&amp;Dance.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>957A178D-7D8C-4BA2-8D27-A439BACB4A04</key>
+		<string>../../../../../adeptpros_cheeranddance</string>
+		<key>bbefe602-4bf9-437d-9e3a-a03b90d65db3</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>bbefe602-4bf9-437d-9e3a-a03b90d65db3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>957A178D-7D8C-4BA2-8D27-A439BACB4A04</string>
+			<key>IDESourceControlWCCName</key>
+			<string>adeptpros_cheeranddance</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>bbefe602-4bf9-437d-9e3a-a03b90d65db3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>adeptpros_cheeranddance_David</string>
+		</dict>
+	</array>
+</dict>
+</plist>
